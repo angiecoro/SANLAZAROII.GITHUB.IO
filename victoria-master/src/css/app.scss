@@ -1,0 +1,217 @@
+// app global css in SCSS form
+.banner{
+    background-image: url('/back2.svg') ;
+    background-repeat: no-repeat;
+    width:100% ;
+    height: 100% ;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('/font/Poppins-Regular.ttf')  ;
+
+  }
+  @font-face {
+    font-family: 'Poppins-bold';
+    src: url('/font/Poppins-ExtraBold.ttf')  ;
+
+  }
+body{
+    font-family: 'Poppins';
+}
+.title-v {
+    font-weight: 1000;
+    font-family: 'Poppins-bold';
+
+    font-size:40px;
+}
+.subtitle-v{
+    font-weight: 500;
+    font-size: 24px;
+}
+.subtitle-v2{
+    font-weight: 1000;
+    font-family: 'Poppins-bold';
+    font-size: 24px;
+}
+.card--info{
+
+    height: 415px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px ;
+}
+.card--info--2{
+
+background: linear-gradient(90deg, #58B9A8 0%, #426EF0 96.46%);
+border-radius: 60px;
+padding:42px;
+margin: 10px;
+}
+.bg--info{
+    width:100%;
+    height: 100% ;
+    background: rgba(0, 0, 0, 0.33);
+}
+.card--info-mobile{
+    height: 128px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top:10px ;
+}
+.bg--info--mobile-blue{
+background: linear-gradient(90.09deg, #426EF0 3.3%, rgba(217, 217, 217, 0) 98.94%);
+width:100%;
+height: 100% ;
+
+
+}
+.bg--info--mobile-green{
+background: linear-gradient(90.09deg, #58B9A8 3.3%, rgba(217, 217, 217, 0) 98.94%);
+width:100%;
+height: 100% ;
+}
+.btn--blue1{
+    background: #426EF0;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+color: white;
+}
+.btn--green1{
+
+    background: #58B9A8;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    color: white;
+    }
+.btn--vic{
+    width:200px;
+     font-family: 'Poppins-bold';
+     height:50px;
+     font-size: 16px;
+}
+.img--info{
+    padding-top: 25%;
+}
+.card--modal--vision{
+background: rgba(66, 110, 240, 1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px !important;
+width:100vw;
+padding: 10px;
+}
+.card--modal--history{
+    background: linear-gradient(108.28deg, #428AF0 4.97%, #58B9A8 80.99%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px !important;
+    width:100vw;
+    padding: 10px;
+    }
+.card--modal--mision{
+     background: #58B9A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px !important;
+    width:100vw;
+    padding: 10px;
+    }
+@media (min-width: 600px){
+    .q-dialog__inner--minimized > div {
+        max-width: 100% !important;
+    }
+}
+.text--bold{
+    font-family: 'Poppins-bold';
+}
+.btn--close{
+    height:40px !important;
+    padding:20px;
+    & .q-btn__content{
+        height:40px !important;
+    }
+    & .q-icon{
+        font-size: 30px !important;
+    }
+}
+.text-data{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 17px;
+/* or 106% */
+
+text-align: justify;
+
+color: #FFFFFF;
+}
+.bg-btn-slider{
+  background-color: #426EF0;
+  width: 50px;
+  height:50px;
+}
+.custom-caption{
+  background: rgba(0, 0, 0, 0.50);
+  color: white;
+  position: absolute;
+  padding: 10px;
+  top:50%;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  border-radius: 20px ;
+  transform: translate(-50%,-50%);
+}
+.btn--slider{
+  position: absolute;
+  padding: 10px;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  top:70%;
+  transform: translate(-50%,);
+}
+.footer-v{
+  background:linear-gradient(97.41deg, rgba(66, 110, 240, 0.96) 26.62%, #58B9A8 55.76%);;
+}
+.text--new{
+  font-size: 16px
+}
+@media (max-width: 600px) {
+    
+  .title-v {
+    font-weight: 1000;
+    font-family: 'Poppins-bold';
+
+    font-size:24px;
+}
+.subtitle-v{
+    font-weight: 500;
+    font-size: 20px;
+}
+.banner{
+  background-image: url('/backMovil.svg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width:100% ;
+  height:286.03px ;
+}
+.card--info{
+    height: 300px;
+    width: 70%;
+    box-shadow:none;
+}
+.card--info--2{
+    height: 128px;
+    border-radius: 20px;
+    width: 100%;
+}
+.btn--vic{
+    width: 100px;
+    height: 39px;
+    font-family: 'Poppins-bold';
+
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.custom-caption{
+    width:80% ;
+}
+}
